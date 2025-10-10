@@ -35,6 +35,8 @@ public class Patient {
     @NotNull
     private LocalDate registeredDate;
 
+    public Patient(){}
+
     public Patient(UUID id, @NotNull String name, @NotNull @Email String email, @NotNull String address,
             @NotNull LocalDate dateOfBirth, @NotNull LocalDate registeredDate) {
         this.id = id;
