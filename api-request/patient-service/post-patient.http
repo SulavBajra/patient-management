@@ -1,0 +1,11 @@
+
+POST http://localhost:8000/patients
+Content-Type: application/json
+
+{
+    "name" : "ram",
+    "email" : "123@gmail.com",
+    "address": "",
+    "dateOfBirth": "2004-09-02",
+    "registeredDate": "2020-09-03"
+}
