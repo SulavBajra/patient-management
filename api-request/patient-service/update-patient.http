@@ -1,10 +1,10 @@
 ###update an entity
-PUT http://localhost:8000/patients/123e4567-e89b-12d3-a456-426614174000
+PUT http://localhost:8000/patients/123e4567-e89b-12d3-a456-426614174000	
 Content-Type: application/json
 
 {
     "name" : "John Doe",
-    "email" : "john.doe@example.com",
+    "email" : "john.doe2@example.com",
     "address": "123 China St, Springfield",
     "dateOfBirth": "1985-06-15"
 }
